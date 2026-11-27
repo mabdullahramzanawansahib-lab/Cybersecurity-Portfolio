@@ -1,19 +1,11 @@
 # Small Company Security Design
 
-## Project Overview
+ ## Project Overview
 
-This project demonstrates a basic security architecture for a fictional small company. The objective is to identify valuable assets, analyze common cyber threats, and recommend practical security controls using industry best practices.
-
-This project was created as part of my cybersecurity learning roadmap while preparing for a career as a:
-
-- SOC Analyst
-- Security Engineer
-- Cloud Security Engineer
-
----
+This project demonstrates a basic security architecture for a imaginary small company. The objective is to identify valuable assets, analyze common cyber threats, and recommend practical security controls.
 
 # Company Overview
-Company Name: ABC Solutions (Fictional)
+Company Name: ABC Solutions
 
 ## Environment
 
@@ -25,8 +17,6 @@ Company Name: ABC Solutions (Fictional)
 - Office Wi-Fi
 - Cloud Storage
 
----
-
 # Assets
 
 - Employee laptops
@@ -37,10 +27,7 @@ Company Name: ABC Solutions (Fictional)
 - Office Network
 -Or anything other valuable to the company
 
----
-
 # Threats Identified
-
 - Phishing
 - Malware
 - Ransomware
@@ -48,101 +35,70 @@ Company Name: ABC Solutions (Fictional)
 - Insider Threat
 - Device Theft
 
----
-
 # Security Controls
-
 ## Identity Security
-
 - Multi-Factor Authentication (MFA)
 - Strong Password Policy
 - Role-Based Access Control (RBAC)
 - Least Privilege
 
 ## Network Security
-
 - Firewall
 - Secure Wi-Fi
 - VPN for Remote Access
 - Network Segmentation
 
 ## Endpoint Security
-
 - Antivirus
 - Endpoint Detection and Response (EDR)
 - Automatic Updates
 
 ## Data Security
-
 - HTTPS/TLS
-- Full Disk Encryption
+- Full Disk Encryption(BitLocker)
 - Regular Backups
 
 ## Monitoring
-
 - Logging
 - Security Information and Event Management (SIEM)
 
----
-
-# Example Attack Scenario
+# Example Attack:
 
 ## Phishing Attack
-
-### Attack
 
 An employee enters their Microsoft 365 credentials into a fake login page.
 
 ### Impact
-
 - Account compromise
 - Unauthorized access
 - Potential data theft
 
 ### Mitigation
-
 - MFA
 - Email Security
 - Security Awareness Training
 - Conditional Access
 - Login Monitoring
 
----
-
 # Security Architecture
 
-Internet
+   Internet
 
-↓
+   Firewall
+   
+   Office Network
 
-Firewall
+   Windows Server
 
-↓
+   Employee Devices
 
-Office Network
+   Database
 
-↓
+   Cloud Storage
 
-Windows Server
-
-↓
-
-Employee Devices
-
-↓
-
-Database
-
-↓
-
-Cloud Storage
-
-Security controls are applied throughout the environment, including MFA, EDR, logging, encryption, and backups.
-
----
+Security controls are applied throughout including MFA, EDR, logging, encryption, and backups.
 
 # Key Security Principles
-
 - Defense in Depth
 - Zero Trust
 - Least Privilege
@@ -150,12 +106,8 @@ Security controls are applied throughout the environment, including MFA, EDR, lo
 - Identity and Access Management
 - Encryption
 
----
-
 # Lessons Learned
-
 Through this project I learned how to:
-
 - Identify organizational assets
 - Analyze cyber threats
 - Select appropriate security controls
@@ -163,22 +115,9 @@ Through this project I learned how to:
 - Understand the roles of SOC Analysts and Security Engineers
 - Design a simple security architecture
 
----
-
 # Future Improvements
-
 - Data Loss Prevention (DLP)
 - Privileged Access Management (PAM)
 - Vulnerability Scanning
 - Cloud Security
 - Security Awareness Program
-
----
-
-## Author
-
-**Abdullah**
-
-BS Computer Science Student
-
-Aspiring SOC Analyst | Future Security Engineer | Future Cloud Security Engineer
